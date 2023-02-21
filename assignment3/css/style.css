@@ -1,0 +1,181 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 62, 78);
+}
+
+.mobile{
+   
+}
+
+.desktop{
+    opacity: 0;
+}
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: rgb(179, 188, 189);
+}
+
+h1{
+    background: rgb(126, 165, 172);
+    padding: 10px;
+}
+
+
+#container {
+	width:90%;
+	margin:auto;
+   
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    background: rgb(104, 103, 105);
+    opacity: 70%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a:hover{
+    background: rgb(77, 72, 95);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+figure {
+	margin:0px;
+}
+
+figure img {
+	width:100%;
+}
+
+nav section {
+	border:5px solid rgb(200, 214, 214);
+    margin-bottom: 30px;
+    background: rgb(171, 199, 197);
+}
+
+
+/* Class for making YouTube/Vimeo videos responsive */
+
+figure.responsive {
+    position: relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+figure.responsive iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+/* Minimum width for iPads and tablets.  */
+@media all and (min-width: 481px) {
+	
+	
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	#container {
+		width:80%;
+	}
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    nav section {
+        flex: 0 1 48%;
+    }
+
+    .mobile{
+        display: none;
+    }
+    
+    .desktop{
+        opacity: 1;
+    }
+		
+	
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+    nav section {
+        flex: 0 1 30%;
+    }
+	
+	
+    .mobile{
+        display: none;
+    }
+    
+    .desktop{
+        opacity: 1;
+    }
+} /* closes 1024px+ */
+
+
+
+
+

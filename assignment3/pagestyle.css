@@ -1,0 +1,160 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(59, 62, 78);
+}
+
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	
+	font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background: rgb(179, 188, 189);
+   
+}
+
+h1{
+    background: rgb(126, 165, 172);
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    font-size: 30px;
+    
+    padding: 30px;
+    line-height: 30px;
+    
+    
+}
+
+#container {
+	width:90%;
+	margin:auto;
+    
+   
+}
+
+#globalNav{
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    
+}
+
+#globalNav a {
+    text-decoration: none;
+    display: block;
+    color: rgb(81, 78, 95);
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#globalNav a:hover{
+    
+    color: black;
+   
+}
+
+
+
+figure {
+	margin:0px;
+}
+
+figure img {
+	width:100%;
+}
+
+nav section {
+	
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+/* Minimum width for iPads and tablets.  */
+@media all and (min-width: 481px) {
+	
+	
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	#container {
+		width:80%;
+	}
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+       
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    nav section {
+        flex: 0 1 48%;
+    }
+
+    p{
+        width: 50%;
+    }
+		
+	
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+    nav section {
+        flex: 0 1 30%;
+    }
+	
+    p {
+        margin: 20px;
+        font-size: 40px;
+        padding: 30px;
+        line-height: 40px;
+        width: 200%;
+        border: 2px solid black;
+        
+    }
+	
+} /* closes 1024px+ */
+
+
+
+
