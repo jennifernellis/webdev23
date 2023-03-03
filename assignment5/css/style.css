@@ -1,0 +1,217 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+@font-face {
+    font-family: 'bellotabold';
+    src: url('bellota_bold_macroman/Bellota-Bold-webfont.eot');
+    src: url('bellota_bold_macroman/Bellota-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bellota_bold_macroman/Bellota-Bold-webfont.woff2') format('woff2'),
+         url('bellota_bold_macroman/Bellota-Bold-webfont.woff') format('woff'),
+         url('bellota_bold_macroman/Bellota-Bold-webfont.ttf') format('truetype'),
+         url('bellota_bold_macroman/Bellota-Bold-webfont.svg#bellotabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	font-family: 'bellotabold', sans-serif;
+    font-size: 3vw;
+    line-height: 40px;
+    margin: 30px;
+    background-color:rgb(143, 112, 124);
+    color: white;
+    
+	
+}
+
+figure{
+    margin: 0px;
+}
+
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+figcaption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 15px;
+    
+}
+
+header h1{
+    font-family: 'bellotabold', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+}
+
+
+
+#container {
+	
+    padding: 2em;
+    background-color: rgb(172, 133, 148);
+    border-radius: 30px;
+
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'bellotabold', sans-serif;
+    background-color:rgb(143, 112, 124);
+    border: 5px solid rgb(143, 112, 124);
+    color: white;
+}
+
+
+
+/* Class for making YouTube/Vimeo videos responsive */
+
+figure.responsive {
+    position: relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+figure.responsive iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+/* Minimum width for iPads and tablets.  */
+@media all and (min-width: 481px) {
+	
+	body {
+        font-family: 'bellotabold', sans-serif;
+        font-size: 3vw;
+        margin: 30px;
+        background-color:rgb(143, 112, 124);
+        
+    }
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+   
+
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	#container{
+        width: 1200px;
+        margin: auto;
+        
+        
+
+        
+    }
+	
+    header h1{
+        font-size: 4vw;
+        background-color: rgb(172, 133, 148);
+        padding: 30px;
+        font-family: 'bellotabold', sans-serif;
+    }
+
+    
+	
+    body {
+        font-family: 'bellotabold', sans-serif;
+        font-size: 40px;
+        line-height: 30px;
+        background: rgb(255, 253, 253);
+        
+       
+        
+    }
+
+    figure img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        padding: 5px;
+    }
+    
+    
+    
+    figcaption{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        font-size: 15px;
+        
+    }
+    
+} /* closes 1024px+ */
+
+
+
+
+
+
