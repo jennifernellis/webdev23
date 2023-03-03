@@ -30,8 +30,8 @@ html {
 
 body {
 	font-family: 'bellotabold', sans-serif;
-    font-size: 3vw;
-    line-height: 40px;
+    font-size: 20px;
+    
     margin: 30px;
     background-color:rgb(143, 112, 124);
     color: white;
@@ -66,6 +66,7 @@ header h1{
     font-family: 'bellotabold', sans-serif;
     font-size: 10vw;
     text-align: center;
+    line-height: 40px;
 }
 
 
@@ -138,10 +139,10 @@ You can adjust the min-width numbers below, and add as many new media queries as
 	
 	body {
         font-family: 'bellotabold', sans-serif;
-        font-size: 3vw;
+        font-size: 20px;
         margin: 30px;
         background-color:rgb(143, 112, 124);
-        
+        line-height: 40px;
     }
 	
 	
@@ -185,7 +186,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         line-height: 30px;
         background: rgb(255, 253, 253);
         
-       
+        
         
     }
 
