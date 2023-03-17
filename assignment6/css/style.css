@@ -61,7 +61,7 @@ header, section {
 }
 
 #part3 {
-	background:url('../img/cats.jpg') fixed center no-repeat;
+	background:url('../img/cats.JPG') fixed center no-repeat;
 	background-size:cover;
 	position:relative;
 }
