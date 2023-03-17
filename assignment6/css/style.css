@@ -1,0 +1,181 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+/* "Mobile first" CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	
+	
+}
+
+
+#container {
+	height:100%;
+}
+
+
+/* The two portions of the page in black, with yellow text */
+header, section {
+	background:black;
+	padding:15px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+
+/* The three div's with cat background images */
+#cat1, #cat2, #cat3 {
+	/*height:700px;*/
+	height:100%;
+}
+
+
+#cat1 {
+	background:url('../img/mittens1.JPG') fixed center no-repeat;
+	background-size:cover;
+}
+
+#cat2 {
+	background:url('../img/nature.jpg') fixed center no-repeat;
+	background-size:cover;
+	
+	position:relative;
+}
+
+#cat3 {
+	background:url('../img/cats.jpg') fixed center no-repeat;
+	background-size:cover;
+}
+
+
+figure img{
+	width: 20%;
+	padding: 20px;
+}
+
+#front h1 {
+	color:white;
+	font-size:140px;
+	line-height:140px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-182px;
+	margin-top:-70px;
+}
+
+
+#cat2 h1 {
+	color:white;
+	font-size:140px;
+	line-height:140px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-370px;
+	margin-top:-70px;
+}
+
+
+
+
+@keyframes changes {
+	from {transform: scale(1,1);}
+	to {transform: scale(1,2);}
+}
+
+.red {
+	animation: changes 1.5s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes slidein {
+	from {
+	  margin-right: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-right: 0%;
+	  width: 100%;
+	}
+  }
+
+ .slide{
+	animation: slidein 1.5s;
+  }
+
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+======================================== */
+
+/* New CSS for tablet sizes.
+You can change the pixel number below */
+@media all and (min-width: 768px) {
+	
+	
+	
+	
+} /* closes 768px+ */
+
+
+
+
+/* New CSS for desktop sizes.
+You can change the pixel number below */
+@media all and (min-width: 1024px) {
+	
+header, section {
+	background:black;
+	padding:15px;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	animation: pulse;
+}
+
+#front h1 {
+	color:white;
+	font-size:140px;
+	line-height:140px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-428px;
+	margin-top:-140px;
+}
+	
+} /* closes 1024px+ */
+
+
+
+
+
