@@ -65,8 +65,8 @@ header, section {
 
 
 figure img{
-	width: 20%;
-	padding: 20px;
+	width: 80%;
+	padding: 50px;
 }
 
 #front h1 {
@@ -83,12 +83,12 @@ figure img{
 
 #cat2 h1 {
 	color:white;
-	font-size:140px;
-	line-height:140px;
+	font-size:40px;
+	line-height:40px;
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin-left:-370px;
+	margin-left:-182px;
 	margin-top:-70px;
 }
 
@@ -173,6 +173,21 @@ header, section {
 	margin-top:-140px;
 }
 	
+#cat2 h1 {
+	color:white;
+	font-size:140px;
+	line-height:140px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-370px;
+	margin-top:-70px;
+}
+
+figure img{
+	width: 20%;
+	padding: 20px;
+}
 } /* closes 1024px+ */
 
 
