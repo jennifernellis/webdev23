@@ -9,6 +9,8 @@ html {
 		/* Standard text-settings below */
 	font-size: 1em;
     line-height: 1.4em;
+	font-family: 'Raleway', sans-serif;
+
 }
 
 
@@ -40,38 +42,39 @@ header, section {
 
 
 /* The three div's with cat background images */
-#cat1, #cat2, #cat3 {
+#part1, #part2, #part3 {
 	/*height:700px;*/
 	height:100%;
 }
 
 
-#cat1 {
+#part1 {
 	background:url('../img/mittens1.JPG') fixed center no-repeat;
 	background-size:cover;
 }
 
-#cat2 {
+#part2 {
 	background:url('../img/nature.jpg') fixed center no-repeat;
 	background-size:cover;
 	
 	position:relative;
 }
 
-#cat3 {
+#part3 {
 	background:url('../img/cats.jpg') fixed center no-repeat;
 	background-size:cover;
+	position:relative;
 }
 
 
 figure img{
-	width: 80%;
+	width: 60%;
 	padding: 50px;
 }
 
 #front h1 {
 	color:white;
-	font-size:140px;
+	font-size:120px;
 	line-height:140px;
 	position:absolute;
 	left:50%;
@@ -81,7 +84,18 @@ figure img{
 }
 
 
-#cat2 h1 {
+#part2 h1 {
+	color:white;
+	font-size:40px;
+	line-height:40px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-182px;
+	margin-top:-70px;
+}
+
+#part3 h1 {
 	color:white;
 	font-size:40px;
 	line-height:40px;
@@ -95,31 +109,10 @@ figure img{
 
 
 
-@keyframes changes {
-	from {transform: scale(1,1);}
-	to {transform: scale(1,2);}
-}
 
-.red {
-	animation: changes 1.5s;
-	animation-fill-mode:forwards;
-}
-
-@keyframes slidein {
-	from {
-	  margin-right: 100%;
-	  width: 300%;
-	}
   
-	to {
-	  margin-right: 0%;
-	  width: 100%;
-	}
-  }
 
- .slide{
-	animation: slidein 1.5s;
-  }
+ 
 
 /* A better looking default horizontal rule */
 hr {
@@ -159,12 +152,12 @@ header, section {
 	color: white;
 	font-size: 35px;
 	text-align: center;
-	animation: pulse;
+	
 }
 
 #front h1 {
 	color:white;
-	font-size:140px;
+	font-size:120px;
 	line-height:140px;
 	position:absolute;
 	left:50%;
@@ -173,10 +166,10 @@ header, section {
 	margin-top:-140px;
 }
 	
-#cat2 h1 {
+#part2 h1 {
 	color:white;
-	font-size:140px;
-	line-height:140px;
+	font-size:100px;
+	line-height:100px;
 	position:absolute;
 	left:50%;
 	top:50%;

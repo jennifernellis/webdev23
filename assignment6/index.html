@@ -11,7 +11,10 @@
 	
 	<title>Assignment 6</title>
 	
-	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">	
 	
 </head>
 
@@ -25,7 +28,7 @@
   <h1>the little things</h1>
   </header>
 </div>
-  <div id="cat1"></div>
+  <div id="part1"></div>
   
 <section id="one">
   <p>It is the little things in life that help us stay grounded. Things like...</p>
@@ -33,7 +36,7 @@
  
 
 
-    <div id="cat2"><!--<p>***Brief message***</p>-->
+    <div id="part2"><!--<p>***Brief message***</p>-->
     <h1>Friendship, pets, nature...</h1>
     <figure class="friendship">
 		<img src="img/plush.jpg"> 
@@ -51,7 +54,7 @@
     <p class="slideText">It's the little things in life that help to bring us together as individuals. It's the little things that we bond over that connect us in our communities.</p>
     </section>
     
-      <div id="cat3"></div>
+      <div id="part3"><h1>the little things.</h1></div>
 
 
 
@@ -73,26 +76,21 @@ $(window).scroll(function() {
 	var windowPosition = $(window).scrollTop();
 	
 	$('p.slideText').hide();
+	$('#part3 h1').hide();
+
 	
-	/*
-	if (windowPosition>1500) {
-	$('section').css('background','red');
+	if (windowPosition>1520) {
+		$('p.slideText').slideDown(700);
+		$('#part3 h1').show();
+
+		
 	} else {
-	$('section').css('background','black');
-	} //close if statement
-	*/
-	
-	//An alternate approach, but with a nice CSS animation
-	if (windowPosition>1300) {
-		$('section').addClass('slide');
-		$('p.slideText').show();
-	} else {
-		$('section').removeClass('slide');
 		$('p.slideText').hide();
-	}//close if/else statement
+		
+	}
 
 
-
+	
 
 
 	//detect position of particular element to trigger a function
@@ -100,9 +98,9 @@ $(window).scroll(function() {
 	var currentElementOffset = (elementOffset - windowPosition);
 	
 	if (currentElementOffset<40) {
-		$('#cat2 img').fadeIn();
+		$('#part2 img').fadeIn();
 	} else {
-		$('#cat2 img').fadeOut();
+		$('#part2 img').fadeOut();
 	}//close if/else statement
 	
 	
