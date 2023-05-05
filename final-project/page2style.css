@@ -199,14 +199,14 @@ You can adjust the min-width numbers below, and add as many new media queries as
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
         border-bottom: 5px solid #3D0F2C;
-        font-size: 50px;
-        line-height: 60px;
-       
+        font-size: 70px;
+        line-height: 70px;
+        background-color: #3D0F2C;
         padding: 50px;
-        padding-bottom: 0px;
+        
         text-align: center;
         
-        color: #3D0F2C;
+        color: white;
         font-weight: 550;
         
        
@@ -216,21 +216,20 @@ You can adjust the min-width numbers below, and add as many new media queries as
 	
     header img {
     
-        width: 25%;
-        height: 25%;
+        width: 65%;
+        height: 65%;
         
       }
 
-    header h2{
-        font-size: 3vw;
-        text-align: left;
-    }
+    
 	main{
         text-align: center;
-        margin-top: -220px;
-        margin-left: 80px;
-        font-weight: 570;
-        padding: 20px;
+       background-color: #3D0F2C;
+       color: rgb(184, 155, 187);
+        
+        
+        padding: 60px;
+        border-radius: 0;
         
         
     }
@@ -271,10 +270,15 @@ You can adjust the min-width numbers below, and add as many new media queries as
         font-family: 'Raleway', sans-serif;
     }
     
+    .icon{
+        width:80%;
+    }
     nav img{
-        width: 80%;
+        width: 60%;
         margin: auto;
-        padding: 40px;
+        padding-top: 0px;
+        
+       
     }
     
     .hover-underline-animation {
@@ -311,7 +315,3 @@ You can adjust the min-width numbers below, and add as many new media queries as
     }
     
 } /* closes 1024px+ */
-
-
-
-

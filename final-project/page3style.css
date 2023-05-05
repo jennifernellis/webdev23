@@ -40,6 +40,10 @@ body {
     height:140px;
   }
 
+  #three img{
+    width: 40%;
+}
+
 header h1{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -98,7 +102,9 @@ a{
 }
 
 
-
+#three h3{
+    border: 3px solid #3D0F2C;
+}
 
 
 /* Class for making YouTube/Vimeo videos responsive */
@@ -193,17 +199,25 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
     }
 
-    
+    #two{
+        display: flex;
+    }
 
+    #two img{
+        margin-left: 60px;
+    }
     header h1{
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
-        border-bottom: 5px solid #3D0F2C;
+        border: 5px solid #3D0F2C;
         font-size: 50px;
         line-height: 60px;
        
-        padding: 50px;
-        padding-bottom: 0px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+        padding-right: 180px;
+        padding-left: 180px;
+        
         text-align: center;
         
         color: #3D0F2C;
@@ -213,21 +227,32 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
     }
     
-	
+	#two h2{
+        margin-left: 20px;
+        margin-top: 130px;
+        font-size: 75px;
+        border-bottom: 6px solid #3D0F2C;
+        border-top: 6px solid #3D0F2C;
+        padding-top: 50px;
+    }
+
+    #two p{
+        font-size: 40px;
+        font-weight: 300;
+        text-align: left;
+
+    }
     header img {
     
-        width: 25%;
-        height: 25%;
+        width: 20%;
+        height: 20%;
         
       }
 
-    header h2{
-        font-size: 3vw;
-        text-align: left;
-    }
+    
 	main{
-        text-align: center;
-        margin-top: -220px;
+        text-align: left;
+        line-height: 40px;
         margin-left: 80px;
         font-weight: 570;
         padding: 20px;
@@ -310,8 +335,51 @@ You can adjust the min-width numbers below, and add as many new media queries as
         color:#3D0F2C
     }
     
+    #three{
+        display:flex;
+        
+    }
+
+    #three img{
+        width: 25%;
+    }
+
+    #three h2{
+        margin-left: 10px;
+        text-align: left;
+        margin-top: 200px;
+        border-top: 6px solid #3D0F2C;
+        padding-top: 20px;
+        
+    }
+
+    #sub1{
+        font-size: 40px;
+        font-weight: 300;
+        text-align: left;
+        padding-bottom: 20px;
+        border-bottom: 6px solid #3D0F2C;
+    }
+
+    #darrah{
+        text-align: left;
+        line-height: 40px;
+        margin-left: 80px;
+        font-weight: 570;
+        padding: 60px;
+        border-left: 5px solid #3D0F2C;
+        border-right: 5px solid #3D0F2C;
+       
+        
+
+    }
+
+    #three h3{
+        border: 3px solid #3D0F2C;
+       width: 15%;
+       margin: 40px;
+        padding: 30px;
+       
+        margin-bottom: 0px;
+    }
 } /* closes 1024px+ */
-
-
-
-
