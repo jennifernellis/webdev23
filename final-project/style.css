@@ -1,0 +1,274 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
+
+body {
+	font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    margin: 30px;
+    background: white;
+	
+}
+
+
+
+  .wrapper{
+    display: flex;
+  }
+
+  
+
+  header img{
+    width: 140px;
+    height:140px;
+  }
+
+header h1{
+    font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+#container {
+	
+}
+
+a{
+
+}
+
+
+
+
+
+/* Class for making YouTube/Vimeo videos responsive */
+
+figure.responsive {
+    position: relative;
+    padding-bottom: 56.25%;  /* 16:9 */
+    height: 0px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+figure.responsive iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* A better looking default horizontal rule */
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0px;
+    padding: 0px;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+/* Minimum width for iPads and tablets.  */
+@media all and (min-width: 481px) {
+	
+	body {
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin: 30px;
+        background: white;
+        
+    }
+	
+	
+} /* closes 481px+ */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+   #two-column{
+    display: flex;
+    background: white;
+   }
+
+   main{
+    border: 0px solid black;
+    margin: 20px;
+    border-radius: 14px;
+   }
+
+   nav{
+    flex: .75;
+
+   }
+
+   main{
+    flex: 2.75;
+    padding: 30px;
+    
+   }
+
+} /* closes 769px+ */
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	#container{
+        width: 1600px;
+        margin: auto;
+        
+
+        
+    }
+
+    
+
+    header h1{
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        border-bottom: 5px solid #3D0F2C;
+        font-size: 50px;
+        line-height: 60px;
+       
+        padding: 50px;
+        padding-bottom: 0px;
+        text-align: center;
+        
+        color: #3D0F2C;
+        font-weight: 550;
+        
+       
+        
+    }
+    
+	
+    header img {
+    
+        width: 25%;
+        height: 25%;
+        
+      }
+
+    header h2{
+        font-size: 3vw;
+        text-align: left;
+    }
+	main{
+        text-align: center;
+        margin-top: -220px;
+        margin-left: 80px;
+        font-weight: 570;
+        padding: 20px;
+        
+        
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+        font-size: 1.5vw;
+        line-height: 30px;
+        background: white;
+        
+       
+        
+    }
+
+    nav{
+        border-left: 7px solid #3D0F2C;
+    }
+    nav a{
+        text-decoration: none;
+        display: block;
+        font-size: 40px;
+        line-height: 45px;
+        font-weight: 700;
+        color: rgb(122, 63, 124);
+        text-align:left;
+        padding: 40px;
+        margin-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    nav img{
+        width: 80%;
+        margin: auto;
+        padding: 40px;
+    }
+    
+    .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        
+      }
+      
+      .hover-underline-animation:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 7px;
+        bottom: 0;
+        left: 0;
+        background-color: #3D0F2C;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+        font-weight: 700;
+      }
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+      }
+    
+    
+    nav a:hover{
+        color:#3D0F2C
+    }
+    
+} /* closes 1024px+ */
+
+
+
+
