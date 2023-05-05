@@ -264,7 +264,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
         background-color: white;
         color: rgb(122, 63, 124);
         text-align:left;
-        padding: 40px;
+        padding-top: 15px;
+        padding-bottom: 30px;
         margin-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
