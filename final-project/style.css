@@ -148,20 +148,122 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
     }
 	
-	
+    header h1{
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        border-bottom: .4vw solid #3D0F2C;
+        font-size: 2.6vw;
+        line-height: 3.6vw;
+       
+        padding: 2.4vw;
+        padding-bottom: 0px;
+        text-align: center;
+        
+        color: #3D0F2C;
+        font-weight: 550;
+        background-color: rgb(248, 239, 223);
+        
+       
+        
+    }
+
+    header img {
+    
+        width: 25%;
+        height: 25%;
+        
+      }
+
+    header h2{
+        font-size: 3vw;
+        text-align: left;
+        background-color: rgb(248, 239, 223);
+    }
+	main{
+        text-align: center;
+        margin-top: -7vw;
+        margin-left: 4vw;
+        font-weight: 570;
+        padding: 20px;
+        font-size: 2vw;
+        line-height: 3vw;
+        background-color: rgb(207, 140, 24);
+        
+        
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+        font-size: 1.5vw;
+        line-height: 2vw;
+        background-color: rgb(248, 239, 223);
+        
+       
+        
+    }
+
+    nav ul{
+        text-align: center;
+    }
+    
+     ul {
+        list-style-type: none;
+        margin-top: 10px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #3D0F2C;
+        position: sticky;
+        border-radius: 6px;
+        width: 100%;
+        
+      }
+      
+       li {
+        float: left;
+        text-align: center;
+        
+      }
+      
+      nav a {
+        display: flex;
+        color:white;
+        margin: 0px;
+        font-size: 5px;
+        text-align: center;
+        font-size: 12px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+        
+      }
+    
+    nav a:hover{
+        
+        color: rgb(95, 93, 93);
+    }
+    #container {
+        
+    }
+    
+    a{
+    
+    }
+    
 } /* closes 481px+ */
 
 
 
 /* Minimum width for laptops. */
-@media all and (min-width: 769px) {
+@media all and (min-width: 800px) {
     
 
     body {
         font-family: 'Quicksand', sans-serif;
-            font-family: 'Raleway', sans-serif;
-        font-size: 1vw;
-        margin: 30px;
+        font-family: 'Raleway', sans-serif;
+        
+        margin: 5vw;
         background-color: rgb(248, 239, 223);
         text-align: center;
        
@@ -169,40 +271,76 @@ You can adjust the min-width numbers below, and add as many new media queries as
     
     
     
-      .wrapper{
-        display: flex;
-      }
+      
     
      nav img{
         width:0%;
      } 
     
-      header img{
-        width: 50%;
-      }
+      
     
-    header h1{
+      header h1{
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
-        font-size: 1vw;
+        border-bottom: .4vw solid #3D0F2C;
+        font-size: 2.6vw;
+        line-height: 3.6vw;
+       
+        padding: 2.4vw;
+        padding-bottom: 0px;
         text-align: center;
-        padding: 10px;
-        margin-top: 40px;
-        display: flex;
+        
+        color: #3D0F2C;
+        font-weight: 550;
+        background-color: rgb(248, 239, 223);
+        
+       
+        
     }
+
+    header img {
+    
+        width: 22vw;
+        height: 22vw;
+        
+      }
+
+    header h2{
+        font-size: 3vw;
+        text-align: left;
+        background-color: rgb(248, 239, 223);
+    }
+	main{
+        text-align: center;
+        margin-top: -7vw;
+        margin-left: 4vw;
+        font-weight: 570;
+        
+        font-size: 2vw;
+        line-height: 3vw;
+        background-color: rgb(248, 239, 223);
+        flex: 2.75;
+        padding: 2vw;
+        
+        
+    }
+    body {
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        
+        
+        line-height: 2vw;
+        background-color: rgb(248, 239, 223);
+        
+       
+        
+    }
+
+    
 
    #two-column{
     display: flex;
     background-color: rgb(248, 239, 223);
-   }
-
-   main{
-    flex: 2.75;
-    border: 0px solid black;
-    margin: 20px;
-    border-radius: 14px;
-    
-    
    }
 
    nav{
@@ -211,15 +349,10 @@ You can adjust the min-width numbers below, and add as many new media queries as
    }
 
 
-   main{
-    flex: 2.75;
-    padding: 30px;
-    
-   }
 
    nav ul{
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0vw;
     position: relative;
     background-color: rgb(248, 239, 223);
     
@@ -232,14 +365,14 @@ nav{
 nav a{
     text-decoration: none;
     display: block;
-    font-size: 0px;
-    line-height: 45px;
+    font-size: 2.3vw;
+    line-height: 3vw;
     font-weight: 700;
     background-color: rgb(248, 239, 223);
     color: rgb(122, 63, 124);
     text-align:left;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 1.3vw;
+    padding-bottom: 2.2vw;
     margin-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
@@ -249,7 +382,7 @@ nav img{
     width: 80%;
     margin: auto;
     background-color: rgb(248, 239, 223);
-    padding: 40px;
+    padding: 4vw;
 }
 
 .hover-underline-animation {
@@ -285,12 +418,13 @@ nav a:hover{
     color:#3D0F2C
 }
 
+
 } /* closes 769px+ */
 
 
 
 /* Minimum width for desktop screens. */
-@media all and (min-width: 1024px) {
+@media (min-width: 1600px) {
 	
 	#container{
         width: 1600px;
@@ -299,6 +433,11 @@ nav a:hover{
 
         
     }
+
+    .wrapper{
+        display: flex;
+      }
+    
 
     #two-column{
         display: flex;
@@ -309,11 +448,11 @@ nav a:hover{
     header h1{
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
-        border-bottom: 5px solid #3D0F2C;
-        font-size: 50px;
-        line-height: 60px;
+        border-bottom: .4vw solid #3D0F2C;
+        font-size: 2.6vw;
+        line-height: 3.6vw;
        
-        padding: 50px;
+        padding: 2.4vw;
         padding-bottom: 0px;
         text-align: center;
         
@@ -328,8 +467,8 @@ nav a:hover{
 	
     header img {
     
-        width: 25%;
-        height: 25%;
+        width: 22vw;
+        height: 22vw;
         
       }
 
@@ -340,12 +479,12 @@ nav a:hover{
     }
 	main{
         text-align: center;
-        margin-top: -170px;
-        margin-left: 80px;
+        margin-top: -7vw;
+        margin-left: 4vw;
         font-weight: 570;
         padding: 20px;
-        font-size: 3vw;
-        line-height: 40px;
+        font-size: 2vw;
+        line-height: 3vw;
         background-color: rgb(248, 239, 223);
         
         
@@ -355,7 +494,7 @@ nav a:hover{
         font-family: 'Raleway', sans-serif;
         
         font-size: 1.5vw;
-        line-height: 30px;
+        line-height: 2vw;
         background-color: rgb(248, 239, 223);
         
        
@@ -364,7 +503,7 @@ nav a:hover{
 
     nav ul{
         list-style: none;
-        padding-left: 0px;
+        padding-left: 0vw;
         position: relative;
         background-color: rgb(248, 239, 223);
         
@@ -377,14 +516,14 @@ nav a:hover{
     nav a{
         text-decoration: none;
         display: block;
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 2.3vw;
+        line-height: 3vw;
         font-weight: 700;
         background-color: rgb(248, 239, 223);
         color: rgb(122, 63, 124);
         text-align:left;
-        padding-top: 15px;
-        padding-bottom: 30px;
+        padding-top: 1.3vw;
+        padding-bottom: 2.2vw;
         margin-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
@@ -394,7 +533,7 @@ nav a:hover{
         width: 80%;
         margin: auto;
         background-color: rgb(248, 239, 223);
-        padding: 40px;
+        padding: 4vw;
     }
     
     .hover-underline-animation {
