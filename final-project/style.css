@@ -142,7 +142,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 	body {
         font-family: 'Quicksand', sans-serif;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
+        font-size: 3vw;
         margin: 30px;
         background-color: rgb(248, 239, 223);
         
@@ -155,6 +155,41 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
+    
+
+    body {
+        font-family: 'Quicksand', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        font-size: 1vw;
+        margin: 30px;
+        background-color: rgb(248, 239, 223);
+        text-align: center;
+       
+    }
+    
+    
+    
+      .wrapper{
+        display: flex;
+      }
+    
+     nav img{
+        width:0%;
+     } 
+    
+      header img{
+        width: 50%;
+      }
+    
+    header h1{
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1vw;
+        text-align: center;
+        padding: 10px;
+        margin-top: 40px;
+        display: flex;
+    }
 
    #two-column{
     display: flex;
@@ -162,9 +197,12 @@ You can adjust the min-width numbers below, and add as many new media queries as
    }
 
    main{
+    flex: 2.75;
     border: 0px solid black;
     margin: 20px;
     border-radius: 14px;
+    
+    
    }
 
    nav{
@@ -172,10 +210,6 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
    }
 
-   body{
-    font-size: 30px;
-    line-height: 40px;
-   }
 
    main{
     flex: 2.75;
@@ -198,7 +232,7 @@ nav{
 nav a{
     text-decoration: none;
     display: block;
-    font-size: 40px;
+    font-size: 0px;
     line-height: 45px;
     font-weight: 700;
     background-color: rgb(248, 239, 223);
@@ -266,6 +300,10 @@ nav a:hover{
         
     }
 
+    #two-column{
+        display: flex;
+        background-color: rgb(248, 239, 223);
+       }
     
 
     header h1{
@@ -306,7 +344,7 @@ nav a:hover{
         margin-left: 80px;
         font-weight: 570;
         padding: 20px;
-        font-size: 40px;
+        font-size: 3vw;
         line-height: 40px;
         background-color: rgb(248, 239, 223);
         
