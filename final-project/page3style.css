@@ -25,7 +25,10 @@ body {
 	text-align: center;
 }
 
-
+#quote1{
+    opacity: 0%;
+    font-size: 0px;
+}
 
   .wrapper{
     display: flex;
@@ -184,6 +187,10 @@ You can adjust the min-width numbers below, and add as many new media queries as
     
    }
 
+   #quote1{
+    opacity: 100%;
+}
+
 } /* closes 769px+ */
 
 
@@ -197,6 +204,9 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
 
         
+    }
+    #quote1{
+        opacity: 100%;
     }
 
     #two{
@@ -213,10 +223,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         font-size: 50px;
         line-height: 60px;
        
-        padding-bottom: 60px;
-        padding-top: 60px;
-        padding-right: 180px;
-        padding-left: 180px;
+        padding: 150px;
         
         text-align: center;
         
@@ -231,7 +238,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         margin-left: 20px;
         margin-top: 130px;
         font-size: 75px;
-        border-bottom: 6px solid #3D0F2C;
+       
         border-top: 6px solid #3D0F2C;
         padding-top: 50px;
     }
@@ -246,6 +253,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     
         width: 20%;
         height: 20%;
+        margin-top: 75px;
         
       }
 
@@ -382,5 +390,11 @@ You can adjust the min-width numbers below, and add as many new media queries as
         padding: 30px;
        
         margin-bottom: 0px;
+    }
+
+    #quote1{
+        font-size: 50px;
+        line-height: 65px;
+        padding-left: 30px;
     }
 } /* closes 1024px+ */

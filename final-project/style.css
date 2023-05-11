@@ -21,7 +21,7 @@ body {
         font-family: 'Raleway', sans-serif;
     font-size: 3vw;
     margin: 30px;
-    background: white;
+    background-color: rgb(248, 239, 223);
 	text-align: center;
 }
 
@@ -73,7 +73,7 @@ nav ul{
   
   nav a {
     display: flex;
-    color: white;
+    color:white;
     margin: 0px;
     font-size: 5px;
     text-align: center;
@@ -144,7 +144,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         font-family: 'Raleway', sans-serif;
         font-size: 20px;
         margin: 30px;
-        background: white;
+        background-color: rgb(248, 239, 223);
         
     }
 	
@@ -158,7 +158,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
    #two-column{
     display: flex;
-    background: white;
+    background-color: rgb(248, 239, 223);
    }
 
    main{
@@ -172,11 +172,84 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
    }
 
+   body{
+    font-size: 30px;
+    line-height: 40px;
+   }
+
    main{
     flex: 2.75;
     padding: 30px;
     
    }
+
+   nav ul{
+    list-style: none;
+    padding-left: 0px;
+    position: relative;
+    background-color: rgb(248, 239, 223);
+    
+}
+
+nav{
+    border-left: 7px solid #3D0F2C;
+    background-color: rgb(248, 239, 223);
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    background-color: rgb(248, 239, 223);
+    color: rgb(122, 63, 124);
+    text-align:left;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav img{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(248, 239, 223);
+    padding: 40px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7px;
+    bottom: 0;
+    left: 0;
+    background-color: #3D0F2C;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    font-weight: 700;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+
+ul{
+    background-color: rgb(248, 239, 223);
+}
+nav a:hover{
+    color:#3D0F2C
+}
 
 } /* closes 769px+ */
 
@@ -188,7 +261,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 	#container{
         width: 1600px;
         margin: auto;
-        
+        background-color: rgb(248, 239, 223);
 
         
     }
@@ -208,6 +281,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
         color: #3D0F2C;
         font-weight: 550;
+        background-color: rgb(248, 239, 223);
         
        
         
@@ -224,13 +298,17 @@ You can adjust the min-width numbers below, and add as many new media queries as
     header h2{
         font-size: 3vw;
         text-align: left;
+        background-color: rgb(248, 239, 223);
     }
 	main{
         text-align: center;
-        margin-top: -220px;
+        margin-top: -170px;
         margin-left: 80px;
         font-weight: 570;
         padding: 20px;
+        font-size: 40px;
+        line-height: 40px;
+        background-color: rgb(248, 239, 223);
         
         
     }
@@ -240,7 +318,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         
         font-size: 1.5vw;
         line-height: 30px;
-        background: white;
+        background-color: rgb(248, 239, 223);
         
        
         
@@ -250,11 +328,13 @@ You can adjust the min-width numbers below, and add as many new media queries as
         list-style: none;
         padding-left: 0px;
         position: relative;
+        background-color: rgb(248, 239, 223);
         
     }
 
     nav{
         border-left: 7px solid #3D0F2C;
+        background-color: rgb(248, 239, 223);
     }
     nav a{
         text-decoration: none;
@@ -262,7 +342,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         font-size: 40px;
         line-height: 45px;
         font-weight: 700;
-        background-color: white;
+        background-color: rgb(248, 239, 223);
         color: rgb(122, 63, 124);
         text-align:left;
         padding-top: 15px;
@@ -275,6 +355,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     nav img{
         width: 80%;
         margin: auto;
+        background-color: rgb(248, 239, 223);
         padding: 40px;
     }
     
@@ -305,7 +386,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
       }
     
     ul{
-        background-color: white;
+        background-color: rgb(248, 239, 223);
     }
     nav a:hover{
         color:#3D0F2C
