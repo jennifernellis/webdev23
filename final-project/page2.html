@@ -39,11 +39,23 @@
         <li><a class="hover-underline-animation" href="index.html">Home Page</a></li>
         <li><a class="hover-underline-animation" href="bio.html">Women's History</a></li>
         <li><a class="hover-underline-animation" href="page3.html">Women's Stories</a></li>
-        <img class ="icon" src="img/iconsample.PNG"/>
-        <img src="img/photosample2.PNG"/>
+        <figure class="STruth">
+            <img class="icon" src="img/STruth.PNG"/>
+        </figure>
+
+        <figure class="ALorde">
+            <img class="icon" src="img/ALorde.PNG"/>
+        </figure>
+
+        <figure class="MarshaP">
+            <img class="icon" src="img/MarshaP.PNG"/>
+        </figure>
+        
+       
         <br>
-        <button id="prev"><strong>prev</strong></button>
-        <button id="next"><strong>next</strong></button>
+        
+        <button id="next"><strong>show more</strong></button>
+        <button id="next2"><strong>show more</strong></button>
         
         
     </ul>
@@ -84,9 +96,21 @@
   <script>
 $(document).ready(function() {
 
+$('figure.ALorde').hide();
+$('figure.MarshaP').hide();
+$('button#next2').hide();
+
+$('button#next').click(function(){
+    $('figure.ALorde').show();
+    $('button#next').hide();
+    $('button#next2').show();
 
 
+});
 
+$('button#next2').click(function(){
+    $('figure.MarshaP').show();
+});
 }); //close .ready()
 </script>
 
