@@ -382,7 +382,7 @@ nav img{
     width: 80%;
     margin: auto;
     background-color: rgb(248, 239, 223);
-    padding: 4vw;
+    padding: 0vw;
 }
 
 .hover-underline-animation {
@@ -533,7 +533,8 @@ nav a:hover{
         width: 80%;
         margin: auto;
         background-color: rgb(248, 239, 223);
-        padding: 4vw;
+        padding: 0vw;
+        padding-top: 0vw;
     }
     
     .hover-underline-animation {

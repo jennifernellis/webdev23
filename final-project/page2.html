@@ -26,7 +26,7 @@
         <a class="wrapper">
         
         <section><h1>women's history</h1></section>
-        <img src="img/samplebanner.jpg"/>
+        <img src="img/banner.PNG"/>
         
         </a>
         
@@ -47,35 +47,33 @@
             <img class="icon" src="img/ALorde.PNG"/>
         </figure>
 
-        <figure class="MarshaP">
-            <img class="icon" src="img/MarshaP.PNG"/>
+        <figure class="RBG">
+            <img class="icon" src="img/RBG.PNG"/>
         </figure>
         
        
         <br>
         
-        <button id="next"><strong>show more</strong></button>
-        <button id="next2"><strong>show more</strong></button>
+       
+        
         
         
     </ul>
 </nav>
 
 <main>
-<p>Women's history is the study of the role that women have played throughout history and how their experiences have shaped society. It is a field of historical inquiry that focuses on the contributions of women to events and developments, as well as the ways in which women's lives have been affected by historical forces.
-
-    Historically, women have faced significant challenges and discrimination, particularly in terms of their legal, social, and economic status. For much of history, women have been excluded from formal education and political power, and have been expected to fulfill traditional roles as wives and mothers.
+<p>Women have fought tirelessly for a countless amount of things throughout history. They fought for the right to vote, their own sexual freedom, equal job opportunities, equal pay, equal education, the right to their own bodies... the list could go on for awhile. No one should have to fight for equality, but unfortunately, in our society, people do have to, and women have been participating in this ongoing fight for centuries. 
+</p>
+<p>The history of feminism is a very deep, layered subject with an explanation that could fill up several novels. Instead of going into extensive detail on feminism itself, I want to highlight certain women who acted as key components in the feminist movement throughout history.
+    </p>
+    <button id="next"><strong>show more</strong></button>
     
-    However, throughout history, women have also played important roles in shaping societies and cultures. Women have contributed to intellectual and artistic movements, as well as social and political movements for equality and justice. In recent years, the study of women's history has gained greater attention and recognition, leading to a deeper understanding of the ways in which women have shaped the world we live in today.</p>
-<p>Feminism is a social, political, and cultural movement that advocates for women's rights and equality between the sexes. The history of feminism is often divided into three "waves," each with its own distinct goals, methods, and accomplishments.
-
-    The First Wave of feminism took place in the late 19th and early 20th centuries and focused primarily on securing legal rights for women, particularly the right to vote. The movement began in the United States and spread to other countries, including the United Kingdom and Canada. Some of the key figures of this wave include Susan B. Anthony, Elizabeth Cady Stanton, and Alice Paul.
-    
-    The Second Wave of feminism emerged in the 1960s and 1970s and was characterized by a focus on issues such as reproductive rights, workplace discrimination, and sexual harassment. This wave was marked by a more diverse group of women, including women of color and working-class women, who challenged both sexism and racism. Key figures of this wave include Betty Friedan, Gloria Steinem, and Audre Lorde.
-    
-    The Third Wave of feminism emerged in the 1990s and continues to the present day. This wave is characterized by a focus on intersectionality, which recognizes that women's experiences are shaped by multiple factors, including race, class, and sexuality. This wave has also been marked by a greater emphasis on cultural issues, such as representation in media and popular culture. Key figures of this wave include bell hooks, Angela Davis, and Rebecca Walker.
-    
-    Overall, the waves of feminism have been marked by significant progress in securing legal rights and social equality for women, as well as ongoing challenges and struggles for gender equality.</p>
+   
+    <p class = "SojTruth"><strong>Sojourner Truth</strong> was a former slave and an activist who focused heavily on women's rights and the abolishment of slavery in the 1800s. She is well-known for her famous speech "Ain't I a Woman?"-- a piece in which she urges the need for women to have equal rights and emphasizes her own capabilities as a woman. </p>
+    <button id="next2"><strong>show more</strong></button>
+    <p class="AudreL"><strong>Audre Lorde</strong> was a Black lesbian author who advocated heavily for women, the LGBTQ+ community, and people of color in her work throughout the mid to late 1900s. She provided important insight to the experience of being a Black queer woman in America. Her work made a great impact of enlightening people on aspects of feminism that often went vastly unnoticed.</p>
+    <button id="next3"><strong>show more</strong></button>
+    <p class="RBG2"><strong>Marsha P. Johnson</strong> was an African American transgender activist who intensely advocated for gay and trans rights in the late 1900s.  </p>
 </main>
 
 </div>
@@ -96,20 +94,36 @@
   <script>
 $(document).ready(function() {
 
+$('figure.STruth').hide();
 $('figure.ALorde').hide();
-$('figure.MarshaP').hide();
+$('figure.RBG').hide();
 $('button#next2').hide();
+$('p.SojTruth').hide();
+$('p.AudreL').hide();
+$('button#next3').hide();
+$('p.RBG2').hide();
+
 
 $('button#next').click(function(){
-    $('figure.ALorde').show();
+    $('figure.STruth').fadeIn();
     $('button#next').hide();
     $('button#next2').show();
+    $('p.SojTruth').fadeIn();
 
 
 });
 
 $('button#next2').click(function(){
-    $('figure.MarshaP').show();
+    $('figure.ALorde').fadeIn();
+    $('p.AudreL').fadeIn();
+    $('button#next2').hide();
+    $('button#next3').show();
+});
+
+$('button#next3').click(function(){
+    $('figure.RBG').fadeIn();
+    $('p.RBG2').fadeIn();
+    $('button#next3').hide();
 });
 }); //close .ready()
 </script>
