@@ -286,6 +286,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     #darrah{
        border:0px;
         padding: 2vw;
+        line-height: 4vw;
     }
     #sub1{
         font-size: 4vw;
@@ -399,6 +400,7 @@ nav ul{
 
 nav{
     border-left: 7px solid #3D0F2C;
+    margin-left: 3vw;
 }
 nav a{
     text-decoration: none;
@@ -487,10 +489,11 @@ nav a:hover{
     text-align: left;
     font-size: 2.7vw;
         line-height: 2.9vw;
-    margin-left: 80px;
+    margin: 6vw;
     font-weight: 570;
     padding: 4vw;
-    padding-top: 1vw;
+    padding-top: 0;
+    padding-bottom: 0;
     border-left: 5px solid #3D0F2C;
     border-right: 5px solid #3D0F2C;
    
@@ -620,6 +623,7 @@ h2{
 
     nav{
         border-left: 7px solid #3D0F2C;
+        margin-left: 0;
     }
     nav a{
         text-decoration: none;
@@ -713,6 +717,8 @@ h2{
         margin-left: 80px;
         font-weight: 570;
         padding: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
         border-left: 5px solid #3D0F2C;
         border-right: 5px solid #3D0F2C;
         border-top: 0px;

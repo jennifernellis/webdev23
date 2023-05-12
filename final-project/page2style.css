@@ -340,7 +340,7 @@ nav a{
 
 }
 nav img{
-    width: 85%;
+    width: 90%;
     margin: auto;
     
     padding: 0vw;
@@ -540,7 +540,7 @@ nav a:hover{
     
     nav img{
         width: 85%;
-        margin: auto;
+        margin-top: .5vw;
        
         padding: 0vw;
     }
