@@ -327,7 +327,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
 header h1{
     font-family: 'Quicksand', sans-serif;
     font-family: 'Raleway', sans-serif;
-    
+    margin-left:3vw;
     font-size: 3.5vw;
     line-height: 60px;
     border: .8vw solid #3D0F2C ;
@@ -561,7 +561,7 @@ h2{
         
         font-size: 3.5vw;
         line-height: 60px;
-       
+        margin-left:0vw;
         padding: 4.9vw;
         background: rgb(151, 118, 151);
         text-align: center;
