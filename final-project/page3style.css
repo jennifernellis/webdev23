@@ -30,6 +30,8 @@ main{
     border: .3vw solid black;
     padding: 2vw;
     background: rgb(218, 188, 218);
+    font-size: 4.3vw;
+    line-height: 5vw;
 }
 #quote1{
     opacity: 0%;
@@ -187,6 +189,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
         border: 0px;
         padding: 2vw;
         background: rgb(218, 188, 218);
+        
         
     }
     #quote1{
@@ -364,11 +367,12 @@ header img {
 
 main{
     text-align: left;
-    line-height: 40px;
+    font-size: 2vw;
+        line-height: 3vw;
     margin-left: 80px;
     font-weight: 570;
     padding: 20px;
-    font-size: 1.5vw;
+   
     background: rgb(218, 188, 218);
     
     
@@ -479,7 +483,8 @@ nav a:hover{
 
 #darrah{
     text-align: left;
-    line-height: 40px;
+    font-size: 1.8vw;
+        line-height: 2.1vw;
     margin-left: 80px;
     font-weight: 570;
     padding: 60px;
@@ -584,7 +589,8 @@ h2{
         margin-left: 80px;
         font-weight: 570;
         padding: 20px;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
+        line-height: 2vw;
         background: rgb(218, 188, 218);
         border: 0px;
         
@@ -699,7 +705,8 @@ h2{
 
     #darrah{
         text-align: left;
-        line-height: 40px;
+        font-size: 1.8vw;
+        line-height: 2.1vw;
         margin-left: 80px;
         font-weight: 570;
         padding: 60px;
@@ -722,8 +729,8 @@ h2{
     }
 
     #quote1{
-        font-size: 50px;
-        line-height: 65px;
+        font-size: 2.9vw;
+        line-height: 3.1vw;
         padding-left: 2vw;
         
     }

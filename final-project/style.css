@@ -98,7 +98,9 @@ a{
 }
 
 
-
+main{
+    font-size: 4.3vw;
+}
 
 
 /* Class for making YouTube/Vimeo videos responsive */
@@ -185,8 +187,8 @@ You can adjust the min-width numbers below, and add as many new media queries as
         margin-left: 4vw;
         font-weight: 570;
         padding: 20px;
-        font-size: 2vw;
-        line-height: 3vw;
+        font-size: 4vw;
+        line-height: 5vw;
         background-color: rgb(248, 239, 223);
         
         
