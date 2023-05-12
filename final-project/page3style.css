@@ -140,7 +140,11 @@ a{
 #reflect{
     font-size: 4vw;
 }
-
+#reflect p{
+    background: rgb(151, 118, 151);
+    padding: 2vw;
+    margin: 3vw;
+}
 /* Class for making YouTube/Vimeo videos responsive */
 
 figure.responsive {
@@ -530,6 +534,12 @@ h2{
     padding-top: 1vw;
 }
 
+#reflect p{
+    background: rgb(151, 118, 151);
+    padding: 2vw;
+    margin: 3vw;
+}
+
 }/* closes 769px+ */
 
 
@@ -758,5 +768,12 @@ h2{
         line-height: 2vw;
         padding: 4.3vw;
         padding-top: 1vw;
+        
+    }
+
+    #reflect p{
+        background: rgb(151, 118, 151);
+        padding: 2vw;
+        margin: 3vw;
     }
 } /* closes 1024px+ */
