@@ -126,6 +126,7 @@ a{
 #darrah{
     border: .3vw solid black;
     padding: 2vw;
+    font-size: 4.3vw;
 }
 #sub1{
     font-size: 4vw;
@@ -326,13 +327,13 @@ header h1{
     
     font-size: 3.5vw;
     line-height: 60px;
-   
+    border: .8vw solid #3D0F2C ;
     padding: 4.9vw;
     background: rgb(151, 118, 151);
     text-align: center;
     
     color: #3D0F2C;
-    font-weight: 550;
+    font-weight: 700;
     
    
     
@@ -367,7 +368,7 @@ header img {
 
 main{
     text-align: left;
-    font-size: 2vw;
+    font-size: 2.7vw;
         line-height: 3vw;
     margin-left: 80px;
     font-weight: 570;
@@ -461,7 +462,8 @@ nav a:hover{
 
 #three img{
     width: 30%;
-    border-radius: 1vw;
+    border-radius: 37vw;
+   
 }
 
 #three h2{
@@ -483,11 +485,12 @@ nav a:hover{
 
 #darrah{
     text-align: left;
-    font-size: 1.8vw;
-        line-height: 2.1vw;
+    font-size: 2.7vw;
+        line-height: 2.9vw;
     margin-left: 80px;
     font-weight: 570;
-    padding: 60px;
+    padding: 4vw;
+    padding-top: 1vw;
     border-left: 5px solid #3D0F2C;
     border-right: 5px solid #3D0F2C;
    
@@ -550,9 +553,9 @@ h2{
         padding: 4.9vw;
         background: rgb(151, 118, 151);
         text-align: center;
-        
+        border: .8vw solid #3D0F2C ;
         color: #3D0F2C;
-        font-weight: 550;
+        font-weight: 700;
         
        
         
@@ -590,7 +593,7 @@ h2{
         font-weight: 570;
         padding: 20px;
         font-size: 1.8vw;
-        line-height: 2vw;
+        line-height: 2.2vw;
         background: rgb(218, 188, 218);
         border: 0px;
         
@@ -706,7 +709,7 @@ h2{
     #darrah{
         text-align: left;
         font-size: 1.8vw;
-        line-height: 2.1vw;
+        line-height: 2.3vw;
         margin-left: 80px;
         font-weight: 570;
         padding: 60px;
