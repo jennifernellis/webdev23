@@ -125,8 +125,8 @@ a{
 
 #darrah{
     border: .3vw solid black;
-    padding: 2vw;
-    font-size: 4.3vw;
+    padding: 2.6vw;
+    font-size: 4vw;
 }
 #sub1{
     font-size: 4vw;
@@ -137,7 +137,9 @@ a{
     border: 3px solid #3D0F2C;
 }
 
-
+#reflect{
+    font-size: 4vw;
+}
 
 /* Class for making YouTube/Vimeo videos responsive */
 
@@ -369,7 +371,7 @@ header img {
 
 main{
     text-align: left;
-    font-size: 2.7vw;
+    font-size: 1.8vw;
         line-height: 3vw;
     margin-left: 80px;
     font-weight: 570;
@@ -487,8 +489,8 @@ nav a:hover{
 
 #darrah{
     text-align: left;
-    font-size: 2.7vw;
-        line-height: 2.9vw;
+    font-size: 1.8vw;
+        line-height: 2.4vw;
     margin: 6vw;
     font-weight: 570;
     padding: 4vw;
@@ -511,15 +513,22 @@ nav a:hover{
 }
 
 #quote1{
-    font-size: 50px;
-    line-height: 65px;
-    padding-left: 2vw;
+    font-size: 2vw;
+    line-height: 2.8vw;
+    padding-left: 1.8vw;
     
 }
 
 h2{
     font-size: 4vw;
    }
+
+   #reflect{
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding: 4.3vw;
+    padding-top: 1vw;
+}
 
 }/* closes 769px+ */
 
@@ -595,7 +604,7 @@ h2{
         margin-left: 80px;
         font-weight: 570;
         padding: 20px;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
         line-height: 2.2vw;
         background: rgb(218, 188, 218);
         border: 0px;
@@ -712,8 +721,8 @@ h2{
 
     #darrah{
         text-align: left;
-        font-size: 1.8vw;
-        line-height: 2.3vw;
+        font-size: 1.5vw;
+        line-height: 2.2vw;
         margin-left: 80px;
         font-weight: 570;
         padding: 60px;
@@ -742,5 +751,12 @@ h2{
         line-height: 3.1vw;
         padding-left: 2vw;
         
+    }
+
+    #reflect{
+        font-size: 1.5vw;
+        line-height: 2vw;
+        padding: 4.3vw;
+        padding-top: 1vw;
     }
 } /* closes 1024px+ */
